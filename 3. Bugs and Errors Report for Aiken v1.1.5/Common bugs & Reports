@@ -1,1 +1,10 @@
+### Common Bugs and Issues:
+
+-Memory Allocation Issues: Some users report performance issues when handling large datasets in memory.
+
+-Event Emission Handling: There are known issues with emitting events in contracts that interact with external systems (such as marketplaces). Event logs may not always be recorded as expected in external logging systems.
+
+-Error Handling: Some error messages may not be very descriptive when a contract execution fails, especially in cases of failed conditions or undefined behavior.
+
+-Deprecation of Some Libraries: Certain libraries from previous versions of Aiken may be deprecated, causing compatibility issues during contract migrations or version upgrades.
 
